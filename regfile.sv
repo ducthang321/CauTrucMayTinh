@@ -14,8 +14,8 @@ module regfile(
 	assign o_rs1_data = (i_rs1_addr == 5'b00000) ? 32'b0: registers[i_rs1_addr];
 	assign o_rs2_data = (i_rs2_addr == 5'b00000) ? 32'b0: registers[i_rs2_addr];
 	
-	always_ff @(posedge i_clk or posedge i_rst) begin
-    if (i_rst) begin
+	always_ff @(posedge i_clk or negedge i_rst) begin
+    if (i_rst == 0) begin
         for (int i = 0; i < 32; i++) begin //cac thanh ghi duoc rs ve 0
             registers[i] <= 32'b0;
         end

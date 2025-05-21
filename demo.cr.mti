@@ -1,0 +1,179 @@
+{D:/my course/BTL_CTMT_PS/Imstruction_mem_tb.sv} {1 {vlog -work work -sv {D:/my course/BTL_CTMT_PS/Imstruction_mem_tb.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module instruction_memory_tb
+
+Top level modules:
+	instruction_memory_tb
+
+} {} {}} {D:/my course/BTL_CTMT_PS/mux3_1.sv} {1 {vlog -work work -sv {D:/my course/BTL_CTMT_PS/mux3_1.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module mux3_1
+
+Top level modules:
+	mux3_1
+
+} {} {}} {D:/my course/BTL_CTMT_PS/Instruction_mem.sv} {1 {vlog -work work {D:/my course/BTL_CTMT_PS/Instruction_mem.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module instruction_memory
+
+Top level modules:
+	instruction_memory
+
+} {} {}} {D:/my course/BTL_CTMT_PS/control_unit.sv} {1 {vlog -work work -sv {D:/my course/BTL_CTMT_PS/control_unit.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module control_unit
+
+Top level modules:
+	control_unit
+
+} {} {}} {D:/my course/BTL_CTMT_PS/lsu_tb.sv} {1 {vlog -work work -sv {D:/my course/BTL_CTMT_PS/lsu_tb.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module lsu_tb
+
+Top level modules:
+	lsu_tb
+
+} {} {}} {D:/my course/BTL_CTMT_PS/d_mem.sv} {1 {vlog -work work -sv {D:/my course/BTL_CTMT_PS/d_mem.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module d_mem
+
+Top level modules:
+	d_mem
+
+} {} {}} {D:/my course/BTL_CTMT_PS/singlecycle.sv} {1 {vlog -work work -sv {D:/my course/BTL_CTMT_PS/singlecycle.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module singlecycle
+
+Top level modules:
+	singlecycle
+
+} {} {}} {D:/my course/BTL_CTMT_PS/alu.sv} {2 {vlog -work work -sv {D:/my course/BTL_CTMT_PS/alu.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module alu
+** Warning: D:/my course/BTL_CTMT_PS/alu.sv(80): (vlog-2182) 'l1[0]' might be read before written in always_comb block.
+
+** Warning: D:/my course/BTL_CTMT_PS/alu.sv(80): (vlog-2182) 'l1[1]' might be read before written in always_comb block.
+
+** Warning: D:/my course/BTL_CTMT_PS/alu.sv(80): (vlog-2182) 'l1[31]' might be read before written in always_comb block.
+
+** Warning: D:/my course/BTL_CTMT_PS/alu.sv(87): (vlog-2182) 'l2[0]' might be read before written in always_comb block.
+
+** Warning: D:/my course/BTL_CTMT_PS/alu.sv(87): (vlog-2182) 'l2[2]' might be read before written in always_comb block.
+
+** Warning: D:/my course/BTL_CTMT_PS/alu.sv(87): (vlog-2182) 'l2[30]' might be read before written in always_comb block.
+
+** Warning: D:/my course/BTL_CTMT_PS/alu.sv(87): (vlog-2182) 'l2[31]' might be read before written in always_comb block.
+
+** Warning: D:/my course/BTL_CTMT_PS/alu.sv(94): (vlog-2182) 'l3[0]' might be read before written in always_comb block.
+
+** Warning: D:/my course/BTL_CTMT_PS/alu.sv(94): (vlog-2182) 'l3[4]' might be read before written in always_comb block.
+
+** Warning: D:/my course/BTL_CTMT_PS/alu.sv(94): (vlog-2182) 'l3[28]' might be read before written in always_comb block.
+
+** Warning: D:/my course/BTL_CTMT_PS/alu.sv(94): (vlog-2182) 'l3[29]' might be read before written in always_comb block.
+
+** Warning: D:/my course/BTL_CTMT_PS/alu.sv(94): (vlog-2182) 'l3[30]' might be read before written in always_comb block.
+
+** Warning: D:/my course/BTL_CTMT_PS/alu.sv(94): (vlog-2182) 'l3[31]' might be read before written in always_comb block.
+
+** Warning: D:/my course/BTL_CTMT_PS/alu.sv(101): (vlog-2182) 'l4[0]' might be read before written in always_comb block.
+
+** Warning: D:/my course/BTL_CTMT_PS/alu.sv(101): (vlog-2182) 'l4[8]' might be read before written in always_comb block.
+
+** Warning: D:/my course/BTL_CTMT_PS/alu.sv(101): (vlog-2182) 'l4[24]' might be read before written in always_comb block.
+
+** Warning: D:/my course/BTL_CTMT_PS/alu.sv(101): (vlog-2182) 'l4[25]' might be read before written in always_comb block.
+
+** Warning: D:/my course/BTL_CTMT_PS/alu.sv(101): (vlog-2182) 'l4[26]' might be read before written in always_comb block.
+
+** Warning: D:/my course/BTL_CTMT_PS/alu.sv(101): (vlog-2182) 'l4[27]' might be read before written in always_comb block.
+
+** Warning: D:/my course/BTL_CTMT_PS/alu.sv(101): (vlog-2182) 'l4[28]' might be read before written in always_comb block.
+
+** Warning: D:/my course/BTL_CTMT_PS/alu.sv(101): (vlog-2182) 'l4[29]' might be read before written in always_comb block.
+
+** Warning: D:/my course/BTL_CTMT_PS/alu.sv(101): (vlog-2182) 'l4[30]' might be read before written in always_comb block.
+
+** Warning: D:/my course/BTL_CTMT_PS/alu.sv(101): (vlog-2182) 'l4[31]' might be read before written in always_comb block.
+
+** Warning: D:/my course/BTL_CTMT_PS/alu.sv(103): (vlog-2182) 'l5[0]' might be read before written in always_comb block.
+
+** Warning: D:/my course/BTL_CTMT_PS/alu.sv(103): (vlog-2182) 'l5[16]' might be read before written in always_comb block.
+
+** Warning: D:/my course/BTL_CTMT_PS/alu.sv(103): (vlog-2182) 'l5[17]' might be read before written in always_comb block.
+
+** Warning: D:/my course/BTL_CTMT_PS/alu.sv(103): (vlog-2182) 'l5[18]' might be read before written in always_comb block.
+
+** Warning: D:/my course/BTL_CTMT_PS/alu.sv(103): (vlog-2182) 'l5[19]' might be read before written in always_comb block.
+
+** Warning: D:/my course/BTL_CTMT_PS/alu.sv(103): (vlog-2182) 'l5[20]' might be read before written in always_comb block.
+
+** Warning: D:/my course/BTL_CTMT_PS/alu.sv(103): (vlog-2182) 'l5[21]' might be read before written in always_comb block.
+
+** Warning: D:/my course/BTL_CTMT_PS/alu.sv(103): (vlog-2182) 'l5[22]' might be read before written in always_comb block.
+
+** Warning: D:/my course/BTL_CTMT_PS/alu.sv(103): (vlog-2182) 'l5[23]' might be read before written in always_comb block.
+
+** Warning: D:/my course/BTL_CTMT_PS/alu.sv(103): (vlog-2182) 'l5[24]' might be read before written in always_comb block.
+
+** Warning: D:/my course/BTL_CTMT_PS/alu.sv(103): (vlog-2182) 'l5[25]' might be read before written in always_comb block.
+
+** Warning: D:/my course/BTL_CTMT_PS/alu.sv(103): (vlog-2182) 'l5[26]' might be read before written in always_comb block.
+
+** Warning: D:/my course/BTL_CTMT_PS/alu.sv(103): (vlog-2182) 'l5[27]' might be read before written in always_comb block.
+
+** Warning: D:/my course/BTL_CTMT_PS/alu.sv(103): (vlog-2182) 'l5[28]' might be read before written in always_comb block.
+
+** Warning: D:/my course/BTL_CTMT_PS/alu.sv(103): (vlog-2182) 'l5[29]' might be read before written in always_comb block.
+
+** Warning: D:/my course/BTL_CTMT_PS/alu.sv(103): (vlog-2182) 'l5[30]' might be read before written in always_comb block.
+
+** Warning: D:/my course/BTL_CTMT_PS/alu.sv(103): (vlog-2182) 'l5[31]' might be read before written in always_comb block.
+
+
+Top level modules:
+	alu
+
+} {} {}} {D:/my course/BTL_CTMT_PS/PC.sv} {1 {vlog -work work -sv {D:/my course/BTL_CTMT_PS/PC.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module PC
+
+Top level modules:
+	PC
+
+} {} {}} {D:/my course/BTL_CTMT_PS/mux2_1.sv} {1 {vlog -work work -sv {D:/my course/BTL_CTMT_PS/mux2_1.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module mux2_1
+
+Top level modules:
+	mux2_1
+
+} {} {}} {D:/my course/BTL_CTMT_PS/Imm_gen.sv} {1 {vlog -work work -sv {D:/my course/BTL_CTMT_PS/Imm_gen.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module imm_gen
+
+Top level modules:
+	imm_gen
+
+} {} {}} {D:/my course/BTL_CTMT_PS/regfile.sv} {1 {vlog -work work -sv {D:/my course/BTL_CTMT_PS/regfile.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module regfile
+
+Top level modules:
+	regfile
+
+} {} {}} {D:/my course/BTL_CTMT_PS/d_mem_tb.sv} {1 {vlog -work work -sv {D:/my course/BTL_CTMT_PS/d_mem_tb.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module d_mem_tb
+
+Top level modules:
+	d_mem_tb
+
+} {} {}} {D:/my course/BTL_CTMT_PS/singlecycle_tb.sv} {1 {vlog -work work -sv {D:/my course/BTL_CTMT_PS/singlecycle_tb.sv}
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module singlecycle_tb
+
+Top level modules:
+	singlecycle_tb
+
+} {} {}}

@@ -6,14 +6,14 @@ module alu (
 
     parameter ADD = 4'b0000;
     parameter SUB = 4'b0001;
-    parameter SLT = 4'b0010;
-    parameter SLTU = 4'b0011;
-    parameter XOR = 4'b0100;
-    parameter OR = 4'b0101;
-    parameter AND = 4'b0110;
-    parameter SLL = 4'b0111;
-    parameter SRL = 4'b1000;
-    parameter SRA = 4'b1001;
+    parameter SLT = 4'b1000;
+    parameter SLTU = 4'b1001;
+    parameter XOR = 4'b0010;
+    parameter OR = 4'b0100;
+    parameter AND = 4'b0011;
+    parameter SLL = 4'b0101;
+    parameter SRL = 4'b0110;
+    parameter SRA = 4'b0111;
     logic [31:0] temp = 32'h00000000;
     logic [31:0] temp_a = 32'h00000000;
     logic [31:0] temp_b = 32'h00000000;
@@ -209,3 +209,4 @@ module alu (
     end
 
 endmodule
+
